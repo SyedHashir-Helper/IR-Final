@@ -1,0 +1,250 @@
+  .form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .file-upload-wrapper {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .file-upload-wrapper:hover {
+    background-color: #f9f9f9;
+    border-color: #007bff;
+  }
+  
+  .file-upload-label {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-icon {
+    font-size: 40px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .file-upload-label p {
+    color: #666;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .uploaded-files {
+    margin-top: 15px;
+  }
+  
+  .uploaded-files h4 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .uploaded-files ul {
+    list-style-type: none;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    border-radius: 4px;
+  }
+  
+  .uploaded-files li {
+    padding: 8px 15px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .query-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .query-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .submit-button.loading {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .success-message {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .success-message .anticon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+
+  /* Add to existing CSS */
+.response-files-container {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .response-files-container h3 {
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  .response-files-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .response-file-card {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .response-file-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+  
+  .response-file-icon {
+    font-size: 40px;
+    color: #007bff;
+    margin-right: 15px;
+  }
+  
+  .response-file-details {
+    flex-grow: 1;
+  }
+  
+  .response-file-details h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .response-file-details p {
+    margin: 0 0 10px 0;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .response-file-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .download-button,
+  .preview-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  
+  .download-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .download-button:hover {
+    background-color: #218838;
+  }
+  
+  .preview-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .preview-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Add to existing CSS */
+.analysis-type-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23666'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 24px;
+  }
+  
+  .analysis-type-select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .analysis-type-select option {
+    padding: 10px;
+  }
